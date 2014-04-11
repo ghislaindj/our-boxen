@@ -57,5 +57,34 @@ github "stdlib",      "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.1.1"
 
+# Dev tools
+github "virtualbox"
+github "iterm2"
+github "firefox"
+github "sequel_pro"
+github "sublime_text_3",        "1.0.2", :repo => "jozefizso/puppet-sublime_text_3"
+github "filezilla",             "1.0.0", :repo => "joshuairl/puppet-filezilla"
+github "chrome"
+github "osx"
+github "alfred"
+github "spotify"
+github "dropbox"
+github "spectacle"
+github "onepassword"
+github "evernote"
+github "vlc"
+github "java"
+github "android"
+
+github "mongodb"
+github "elasticsearch"
+github "zsh"
+
+mod "ohmyzsh",                  "1.0.0", :github_tarball => 'samjsharpe/puppet-ohmyzsh'
+github "imagemagick"
+github "redis", "1.0.0"
+github "mysql"
+github "tunnelblick"
+
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
