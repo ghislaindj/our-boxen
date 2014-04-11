@@ -1,0 +1,13 @@
+#!/bin/sh
+# This is some secure program that uses security.
+
+COMMAND=$1
+SERVICE=$2
+
+if [ "$COMMAND" == "start" ]; then
+        sudo launchctl start $SERVICE
+elif [ "$COMMAND" == "stop" ]; then
+        sudo launchctl stop $SERVICE
+else
+        sudo launchctl stop $SERVICE && sudo launchctl start $SERVICE
+fi
