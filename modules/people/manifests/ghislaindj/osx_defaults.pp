@@ -76,11 +76,11 @@ class people::ghislaindj::osx_defaults {
     notify => Exec['killall Dock'];
   }
 
-  # Make bin directory in user home
-  file { "/Users/${::luser}/bin":
-    ensure => directory,
-    group  => 'staff',
-    owner  => $luser
-  }
+#  # Make bin directory in user home
+#  file { "/Users/${::luser}/bin":
+#    ensure => directory,
+#    group  => 'staff',
+#    owner  => $luser
+#  }
 
 }
