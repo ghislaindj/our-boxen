@@ -1,0 +1,18 @@
+class people::ghislaindj::applications {
+  include sublime_text_3
+  include iterm2::stable
+
+  include chrome
+  include chrome::canary
+  include spotify
+  include alfred
+  include dropbox
+  include onepassword
+  include spectacle
+
+  include mongodb
+  include mysql
+  include zsh
+  include ohmyzsh
+  include imagemagick
+}
