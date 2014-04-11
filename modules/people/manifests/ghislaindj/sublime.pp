@@ -2,7 +2,7 @@ class people::ghislaindj::sublime {
   include sublime_text_3
   include sublime_text_3::package_control
 
-  file { '/Users/benoit/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings':
+  file { '/Users/Ghislain/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings':
     ensure  => file,
     content => template("/opt/boxen/repo/modules/people/templates/shared/Preferences.sublime-settings"),
   }
