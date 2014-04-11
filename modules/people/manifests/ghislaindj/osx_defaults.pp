@@ -14,7 +14,7 @@ class people::ghislaindj::osx_defaults {
   include osx::universal_access::ctrl_mod_zoom
   include osx::universal_access::enable_scrollwheel_zoom
 
-  osx::recovery_message { 'If this Mac is found, please send mail to xebeche@gmail.com': }
+  osx::recovery_message { 'If this Mac is found, please send mail to gdjuvigny@gmail.com': }
 
   class { 'osx::global::key_repeat_delay':
     delay => 0
