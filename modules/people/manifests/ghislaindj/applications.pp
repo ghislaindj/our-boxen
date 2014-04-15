@@ -23,4 +23,6 @@ class people::ghislaindj::applications {
   nodejs::module { 'bower':
     node_version => 'v0.10'
   }
+
+  include evernote
 }
