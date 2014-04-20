@@ -86,7 +86,5 @@ github "redis", "1.0.0"
 github "mysql"
 github "tunnelblick"
 
-github "ffmpeg"
-
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

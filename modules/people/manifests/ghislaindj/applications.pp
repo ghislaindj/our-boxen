@@ -25,6 +25,4 @@ class people::ghislaindj::applications {
   }
 
   include evernote
-
-  include ffmpeg
 }
