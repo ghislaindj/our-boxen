@@ -26,4 +26,7 @@ class people::ghislaindj::applications {
 
   include evernote
   include vlc
+
+  include firefox
+  include skype
 }
