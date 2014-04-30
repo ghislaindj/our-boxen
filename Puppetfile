@@ -87,7 +87,6 @@ github "mysql"
 github "tunnelblick"
 
 github "skype"
-github "htop"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.

@@ -29,6 +29,4 @@ class people::ghislaindj::applications {
 
   include firefox
   include skype
-
-  include htop
 }
