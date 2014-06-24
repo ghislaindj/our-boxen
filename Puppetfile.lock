@@ -179,6 +179,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sysctl
+  specs:
+    sysctl (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-tunnelblick
   specs:
     tunnelblick (1.0.6)
@@ -276,6 +281,7 @@ DEPENDENCIES
   stdlib (= 4.1.0)
   sublime_text_3 (= 1.0.2)
   sudo (= 1.0.0)
+  sysctl (>= 0)
   tunnelblick (>= 0)
   virtualbox (>= 0)
   vlc (>= 0)

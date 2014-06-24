@@ -75,6 +75,7 @@ github "evernote"
 github "vlc"
 github "java"
 github "android"
+github "sysctl"
 github "postgresql"
 
 github "mongodb"
