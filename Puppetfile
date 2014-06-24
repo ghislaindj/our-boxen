@@ -75,6 +75,7 @@ github "evernote"
 github "vlc"
 github "java"
 github "android"
+github "postgresql"
 
 github "mongodb"
 github "elasticsearch"

@@ -1,0 +1,23 @@
+# customize
+
+# easy navigation
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+
+# helpful alias for Django
+alias pm="python manage.py"
+alias pmt="python manage.py test"
+
+
+# IP addresses
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ipconfig getifaddr en0"
+alias ips="ifconfig -a | grep -o 'inet6\? \(\([0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+\)\|[a-fA-F0-9:]\+\)' | sed -e 's/inet6* //'"
+# Ip ethernet de mon MBA
+alias eth_ip="ipconfig getifaddr en0"
+# Ip wifi
+alias wifi_ip="ipconfig getifaddr en2"
+
+alias iphone="open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app"

@@ -31,4 +31,5 @@ class people::ghislaindj::applications {
   include skype
 
   include sequel_pro
+  include postgresql
 }
